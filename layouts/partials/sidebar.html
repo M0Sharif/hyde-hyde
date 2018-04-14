@@ -4,8 +4,12 @@
 			<a href="{{ .Site.BaseURL }}"><h1 class="brand">{{ .Site.Title }}</h1></a>
 			{{ with .Site.Params.authorimage }} <img src="{{.}}" alt="Author Image" class="img-circle headshot center"> {{ end }}
 			<p class="lead">
-				{{ with .Site.Params.description }} {{.}} {{ else }} Your site's description {{end}}
+				{{ with .Site.Params.description }} {{.}} {{ else }} Inconspicuous black person {{end}}
 			</p>
+			<a href="http://www.twitter.com"><i class="fab fa-twitter-square fa-lg"></i></a>
+			<a href="http://www.instagram.com"><i class="fab fa-instagram fa-lg"></i></a>
+			<a href="http://www.youtube.com"><i class="fab fa-youtube-square fa-lg"></i></a>
+			<a href="http://www.soundcloud.com"><i class="fab fa-soundcloud fa-lg"></i></a>
 		</div>
 		{{ partial "sidebar_menu.html" . }}
         <p>
